@@ -10,8 +10,8 @@ import { ReactNode } from "react";
 import MyAppShell from "./AppShell";
 
 export const metadata = {
-  title: "Portfolio Diana Stirbu",
-  description: "I have followed setup instructions carefully",
+  title: "Diana Maria Stirbu",
+  description: "Portfolio 2023",
 };
 
 interface Props {
