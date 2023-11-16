@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <Center h="100%" w="100%">
       <Grid>
-        <Grid.Col span={{ base: 4, md: 6, sm: 0 }}>
+        <Grid.Col span={{ base: 5.25, md: 6, sm: 0 }}>
           {" "}
           <Text
             style={{
@@ -27,7 +27,7 @@ export default function Home() {
           >
             DIANA MARIA STIRBU
           </Text>
-          <Text style={{ marginTop: 5, fontSize: "2.5vw" }}>
+          <Text style={{ fontSize: "2.5vw" }}>
             Interactive Media Student at the University of Applied Sciences in
             Augsburg
           </Text>
