@@ -17,8 +17,6 @@ function MyAppShell({ children }: Props) {
 
   return (
     <AppShell
-      // header={{ height: 60 }}
-      //navbar={{ width: 300, breakpoint: "sm", collapsed: { mobile: !opened } }}
       padding="md"
       h="100%"
       withBorder={false}
