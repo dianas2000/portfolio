@@ -2,6 +2,7 @@
 
 import MyNavBar from "@/components/MyNavBar";
 import { Group, Stack } from "@mantine/core";
+import "@mantine/carousel";
 import { usePathname } from "next/navigation";
 import React from "react";
 

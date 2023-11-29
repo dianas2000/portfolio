@@ -16,11 +16,11 @@ export default function Home() {
   return (
     <Center h="100%" w="100%">
       <Grid>
-        <Grid.Col span={{ base: 5.25, md: 6, sm: 0 }}>
+        <Grid.Col span={{ base: 5.5, md: 6, sm: 0 }}>
           {" "}
           <Text
             style={{
-              marginTop: 30,
+              marginTop: 70,
               fontWeight: "bold",
               fontSize: "2.5vw",
             }}
@@ -55,7 +55,7 @@ export default function Home() {
               color: "black",
             }}
           >
-            ABOUT
+            <span className="hover">ABOUT</span>
           </Link>
           <br />
           <Link

@@ -6,7 +6,6 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      {/* <Link href="/">Back to MainPage</Link> */}
       <Title style={{ marginLeft: 20, fontSize: "6.5vw" }}>CONTACT ME</Title>
       <Text
         style={{
@@ -27,6 +26,7 @@ export default function Home() {
         <a href="mailto:didistirbu2000@gmail.com" style={{ color: "black" }}>
           didistirbu2000@gmail.com
         </a>
+        <br />
       </Text>
       <Title style={{ marginLeft: 20, marginTop: 70, fontSize: "4vw" }}>
         Impressum
