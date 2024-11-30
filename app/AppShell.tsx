@@ -16,16 +16,12 @@ function MyAppShell({ children }: Props) {
   const pathname = usePathname();
 
   return (
-    <AppShell
-      padding="md"
-      h="100%"
-      withBorder={false}
-    >
+    <AppShell padding="md" h="100%" withBorder={false}>
       <AppShell.Main h="100%">{children}</AppShell.Main>
 
       <AppShell.Footer>
         <div style={{ padding: 15, fontSize: 12 }}>
-          Diana Maria Stirbu / 2023
+          Diana Maria Stirbu / 2024
         </div>
       </AppShell.Footer>
     </AppShell>
